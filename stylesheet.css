@@ -21,7 +21,7 @@ Colours:
   border-radius: 12px 12px;
 }
 #mainLeftBody {
-  margin-top: 50px;
+  margin-top: 15px;
   padding: 1px;
   margin-left: 1%;
   width: 24%;
@@ -32,7 +32,7 @@ Colours:
   border: 2px double #000000;
 }
 #mainRightBody {
-  margin-top: 50px;
+  margin-top: 15px;
   margin-left: 26%;
   margin-right: 1%;
   max-width: 73%;
