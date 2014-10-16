@@ -59,7 +59,7 @@ Colours:
 /* Footer of the website - used for contact */
 #footer {
   /* This will be for the footer of the page and the contact information and links */
-  background-color: #9C9C9C;
+  background-color: #FFED75;
   /* Font colour */
   color: black;
   text-align: center;
@@ -68,6 +68,7 @@ Colours:
   height: 75px;
   position: center;
   position: bottom;
+  margin-top: 15px;
   margin-left: 10%;
   margin-right: 10%;
   /* Make the corners of the footer rounded */
