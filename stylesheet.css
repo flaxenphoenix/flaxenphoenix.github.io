@@ -36,6 +36,15 @@ Colours:
   border-spacing: 0px;
   vertical-align: text-middle;
 }
+#maxHeadingWidth {
+    max-width: 500px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 /* Left hand side of the website, used for page navigation */
 #mainLeftBody {
