@@ -11,7 +11,7 @@ Colours:
   Sky Blue: #C7D0D5 - XXX-XXX-XXX - Used for the main background colour
   Blue:     #93B1C6 - XXX-XXX-XXX - Used for the background of the header and footer
   White:    #F5F5F5 - XXX-XXX-XXX - Used for the background of the main body elements
-  Coral:    #FF7148 - XXX-XXX-XXX - Used for the text
+  Coral:    #FF7148 - XXX-XXX-XXX - Used for the text in the header and footer
   Red:      #EC583A - XXX-XXX-XXX - Not currently used
 */
 
@@ -20,7 +20,7 @@ Colours:
   /* This will be for the title of the page and the navigation buttons */
   background-color: #93B1C6;
   /* Font colour */
-  color: white;
+  color: #FF7148;
   text-align: center;
   font-family: Arial;
   width: 80%;
@@ -67,7 +67,7 @@ Colours:
   /* This will be for the footer of the page and the contact information and links */
   background-color: #93B1C6;
   /* Font colour */
-  color: black;
+  color: #FF7148;
   text-align: center;
   font-family: Arial;
   width: 80%;
