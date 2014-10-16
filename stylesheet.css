@@ -21,6 +21,7 @@ Colours:
   border-bottom: 1px, double, #000000;
   top: 0;
   left: 0;
+  border-radius: 12px 5px;
 }
 #mainLeftBody {
   padding: 1px;
@@ -61,29 +62,4 @@ body {
   position: relative;
   top: 0px;
   visibility: hidden;
-}
-
-.footer div.connect div#facebook a {
-  background:url(../images/icon-facebook.png) no-repeat 12px 35px;
-  height:200px;
-  text-align:center;
-  text-indent:-99999px;
-  outline:none;
-  width:48px;
-}
-.footer div div div.connect div#twitter a {
-  background:url(../images/icon-twitter.png) no-repeat 12px 35px;
-  height:200px;
-  text-align:center;
-  text-indent:-99999px;
-  outline:none;
-  width:48px;
-}
-.footer div div div.connect div#googleplus a {
-  background:url(../images/icon-googleplus.png) no-repeat 12px 35px;
-  height:200px;
-  text-align:center;
-  text-indent:-99999px;
-  width:48px;
-  outline:none;
 }
