@@ -9,12 +9,12 @@ Colours:
 #header {
   /* This will be for the title of the page and the navigation buttons */
   position: center;
-  background-color: #59323C;
+  background-color: #000000;
   text-align: center;
   font-family: Arial;
+  color: white;
   width: 80%;
-  height: 125px;
-  text-indent: 10px;
+  height: 50px;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 15px;
