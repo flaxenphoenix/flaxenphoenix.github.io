@@ -1,25 +1,33 @@
 /*
 Colours:
-  Lilac: #59323C - 89-50-60 - Used as a background colour for the entire website
-  Purple: #260126 - 38-01-38 - Mainly used for text
-  Cream: #F2EEBC - 242-240-188 -
-  Taupe: #BFAF80 - R-G-B - Mainly used for the background of the sections
-  Brown: #8C6954 - R-G-B -
+  Lilac:   #59323C - 89-50-60    - Used as a background colour for the entire website
+  Purple:  #260126 - 38-01-38    - Mainly used for text
+  Cream:   #F2EEBC - 242-240-188 -
+  Taupe:   #BFAF80 - R-G-B       - Mainly used for the background of the sections
+  Brown:   #8C6954 - R-G-B       -
+  Grey:    #9C9C9C - 156-156-156 - Used for the background colour of the header
+  Yellow:  #FFED75 - 255-237-117 - Used for the background colour of the footer
 */
+
+/* Header element for the page */
 #header {
   /* This will be for the title of the page and the navigation buttons */
-  position: center;
-  background-color: #000000;
+  background-color: #9C9C9C;
+  /* Font colour */
+  color: white;
   text-align: center;
   font-family: Arial;
-  color: white;
   width: 80%;
   height: 50px;
+  position: center;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 15px;
-  border-radius: 12px 12px;
+  /* Make the corners of the header rounded */
+  border-radius: 20px 20px;
 }
+
+/* Left hand side of the website, used for page navigation */
 #mainLeftBody {
   margin-top: 15px;
   padding: 1px;
@@ -31,6 +39,8 @@ Colours:
   background-color:#BFAF80;
   border: 2px double #000000;
 }
+
+/* Main content section of the website */
 #mainRightBody {
   margin-top: 15px;
   margin-left: 26%;
@@ -42,12 +52,32 @@ Colours:
   border: 2px double #000000;
 }
 
+/* Footer of the website - used for contact */
+#footer {
+  /* This will be for the footer of the page and the contact information and links */
+  background-color: #9C9C9C;
+  /* Font colour */
+  color: black;
+  text-align: center;
+  font-family: Arial;
+  width: 80%;
+  height: 50px;
+  position: center;
+  position: bottom;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* Make the corners of the footer rounded */
+  border-radius: 20px 20px;
+}
+
+/* Used for the background of the website */
 body {
   min-width: 550px;
   background-color: #b2cecf;
   width: 98%;
 }
 
+/* Not currently used*/
 .anchor {
   display: block;
   position: relative;
