@@ -28,6 +28,7 @@ Colours:
   border-color: black;
   border-style: outset;
   border-spacing: 0px;
+  vertical-align: text-middle;
 }
 
 /* Left hand side of the website, used for page navigation */
@@ -74,6 +75,7 @@ Colours:
   border-color: black;
   border-style: outset;
   border-spacing: 0px;
+  vertical-align: text-middle;
 }
 
 /* Used for the background of the website */
