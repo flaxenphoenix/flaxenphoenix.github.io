@@ -43,7 +43,7 @@ Colours:
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
 }
 
 /* Left hand side of the website, used for page navigation */
@@ -56,7 +56,7 @@ img {
   float: left;
   text-indent: 10px;
   background-color:#F5F5F5;
-  border: 2px double #000000;
+/*  border: 2px double #000000;*/
 }
 
 /* Main content section of the website */
@@ -68,7 +68,7 @@ img {
   min-width:500px;
   text-indent: 10px;
   background-color:#F5F5F5;
-  border: 2px double #000000;
+/*  border: 2px double #000000;*/
 }
 
 /* Footer of the website - used for contact */
