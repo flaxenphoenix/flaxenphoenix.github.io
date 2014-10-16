@@ -26,6 +26,7 @@ Colours:
   /* Make the corners of the header rounded */
   border-radius: 20px 20px;
   border-color: black;
+  border-style: outset;
 }
 
 /* Left hand side of the website, used for page navigation */
@@ -70,6 +71,7 @@ Colours:
   /* Make the corners of the footer rounded */
   border-radius: 20px 20px;
   border-color: black;
+  border-style: outset;
 }
 
 /* Used for the background of the website */
