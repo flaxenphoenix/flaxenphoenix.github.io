@@ -1,0 +1,64 @@
+/*
+Colours:
+  Lilac: #59323C - 89-50-60 - Used as a background colour for the entire website
+  Purple: #260126 - 38-01-38 - Mainly used for text
+  Cream: #F2EEBC - 242-240-188 - 
+  Taupe: #BFAF80 - R-G-B - Mainly used for the background of the sections
+  Brown: #8C6954 - R-G-B - 
+*/
+#header {
+  /* This will be for the title of the page and the navigation buttons */
+  position: fixed;
+  background-color: #59323C;
+  text-align: center;
+  font-family: Arial;
+  width: 100%;
+  height: 125px;
+  text-indent: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  border-bottom: 1px, double, #000000;
+  top: 0;
+  left: 0;
+}
+#mainLeftBody {
+  padding: 1px;
+  margin-left: 1%;
+  width: 24%;
+  max-width: 24%;
+  float: left;
+  text-indent: 10px;
+  background-color:#BFAF80;
+  border: 2px double #000000;
+}
+#mainRightBody {
+  margin-top: 150px;
+  margin-left: 26%;
+  margin-right: 1%;  
+  max-width: 73%;
+  min-width:500px;
+  text-indent: 10px;
+  background-color:#BFAF80;
+  border: 2px double #000000;
+}
+
+body {
+  min-width: 550px;
+  background-color: #59323C;
+  width: 98%;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: 0px;
+  visibility: hidden;
+}
