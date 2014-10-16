@@ -27,7 +27,7 @@ Colours:
   border-radius: 20px 20px;
   border-color: black;
   border-style: outset;
-  border-padding: 0px;
+  border-spacing: 0px;
 }
 
 /* Left hand side of the website, used for page navigation */
@@ -73,7 +73,7 @@ Colours:
   border-radius: 20px 20px;
   border-color: black;
   border-style: outset;
-  border-padding: 0px;
+  border-spacing: 0px;
 }
 
 /* Used for the background of the website */
