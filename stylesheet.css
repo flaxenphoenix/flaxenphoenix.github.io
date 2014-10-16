@@ -18,12 +18,10 @@ Colours:
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 15px;
-  border-bottom: 1px, double, #000000;
-  top: 0;
-  left: 0;
-  border-radius: 12px 10px;
+  border-radius: 12px 12px;
 }
 #mainLeftBody {
+  margin-top: 150px;
   padding: 1px;
   margin-left: 1%;
   width: 24%;
