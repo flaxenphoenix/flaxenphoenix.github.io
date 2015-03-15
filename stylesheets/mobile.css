@@ -115,7 +115,7 @@ header, footer, section {
 
 div.shell {
   display: block;
-  width: 80%;
+  width: 640px;
   margin: 0 auto;
 }
 
@@ -129,8 +129,8 @@ header {
   position: relative;
   z-index: 2;
   margin: 0;
-  max-width: 80%;
-  top: 5%;
+  max-width: 640px;
+  top: 51px;
 }
 
 header span.ribbon-inner {
@@ -145,7 +145,7 @@ header span.ribbon-inner {
 header span.left-tail, header span.right-tail {
   position: relative;
   display: block;
-  width: 5%;
+  width: 19px;
   height: 10px;
   background: transparent url(../images/ribbon-tail-sprite-2x.png) 0 0 no-repeat;
   position: absolute;
@@ -159,7 +159,7 @@ header span.left-tail {
 }
 
 header span.right-tail {
-  background-position: -5% 0;
+  background-position: -19px 0;
   right: 0;
 }
 
@@ -188,9 +188,9 @@ section#downloads {
   position: relative;
   display: block;
   height: 171px;
-  width: 75%;
+  width: 602px;
   padding-bottom: 150px;
-  margin: 3% auto -250px;
+  margin: 51px auto -250px;
   z-index: 1;
   background: transparent url(../images/shield.png) center 0 no-repeat;
 }
@@ -204,7 +204,7 @@ span.banner-fix {
   display: block;
   height: 31px;
   position: absolute;
-  width: 80%;
+  width: 640px;
   top: 20px;
 
 }
@@ -221,7 +221,7 @@ footer {
   background: none;
   padding-top: 104px;
   margin: -94px auto 40px;
-  max-width:80%;
+  max-width:640px;
   text-align: center;
 }
 
