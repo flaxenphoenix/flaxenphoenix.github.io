@@ -65,8 +65,7 @@
 <p>As part of my project, I had to calculate a variant of the Hamming distance between two permutation strings.</p>
 <p>The calculation of the Hamming distance between two binary strings can be easily calculated, such as with the following Java code.</p>
 
-<pre><code>>
-  int hammingDistance = 0;
+<pre><code>  int hammingDistance = 0;
   char[] string1, string2;
   for (int i = 0; i < s1.length; i++) {
     hammingDistance = s1[i] != s2[i] ? hammingDistance +1 : hammingDistance;
@@ -79,8 +78,7 @@
 of swaps between two elements within the string (adjacency is not a requirement), and as such a function to calculate this distance must be capable of
 permuting the string and counting the number of swaps without affecting the original string. The code that I wrote to do this is as follows:</p>
 
-<pre><code>>
-  public int R(int[] a, int[] b) {
+<pre><code>public int R(int[] a, int[] b) {
 		// Mapping
 		int[] C = new int[a.length];
 		HashMap<Object, Integer> map = new HashMap<>();
