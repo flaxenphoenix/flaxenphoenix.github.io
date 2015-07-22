@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<script src="Functions.js"></script>
-		
+
 		<?php
 			$Title = $_POST['Title'];
 			$FirstName = $_POST['FirstName'];
@@ -19,12 +19,7 @@
 			$Postcode = $_POST['Postcode'];
 			$Quantity = $_POST['Quantity'];
 
-			$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-			$txt = "John Doe\n";
-			fwrite($myfile, $txt);
-			$txt = "Jane Doe\n";
-			fwrite($myfile, $txt);
-			fclose($myfile);
+			
 		?>
 	</body>
 </html>
