@@ -1,0 +1,52 @@
+
+#header { background-color: #4FD5D6;
+		  width:650px;
+		  height:100px;
+		  margin-left:50px;
+		  margin-right:50px;
+		  text-align:center;
+		  position: absolute;
+		  top:0px;
+		  padding-top:5px;
+		  padding-left:15px;
+		  padding-right:15px;  
+		  
+}
+
+body { margin-top:100px;
+	   background-color: #CDFFFF;
+       font-family: Verdana, Arial, sans-serif; 
+	  min-width:600px;
+}
+
+#mainbody {  top:300px;
+}
+
+.lefthandside { margin-left:50px;
+			width: 300px;
+			 padding:20px;
+             float:left;
+			 background-color: #4FD5D6;
+}
+
+.lefthandsidephp { margin-left:50px;
+			width: 640px;
+			 padding:20px;
+             float:left;
+			 background-color: #4FD5D6;
+}
+
+.righthandside { padding:20px;
+			width: 300px;
+			margin-left:390px;
+             -- float:right;
+			 background-color: #FF0000;
+			 margin-right:50px;
+}
+
+#canvas {
+		margin: 10px;
+		padding:10px;
+		-- background-color: #FFFFFF;
+		-- border: 2px double black;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="Functions.js"></script>
+        <title>Webpage</title>
+    </head>
+    <body>
+        <h1>Default form webpage</h1>
+
+
+        <form id="details" action="form.php" method="post">
+			<p>
+				Enter details<br>
+				Title:
+				<select>
+						<option value="Dr">Dr</option>
+						<option value="Mr">Mr</option>
+				</select><br>
+				First Name: <input type = "text"  name = "FirstName"  placeholder="First Name"><br>
+				Surname: <input type = "text"  name = "Surname"  placeholder="Surname"><br>
+				House Number: <input type = "text"  name = "HouseNumber"  placeholder="House Number"><br>
+				Address Line 1: <input type = "text"  name = "AddressLine1"  placeholder="Address Line 1"><br>
+				Address Line 2: <input type = "text"  name = "AddressLine2"  placeholder="Address Line 2"><br>
+				Address Line 3: <input type = "text"  name = "AddressLine3"  placeholder="Address Line 3"><br>
+				Postcode: <input type = "text"  name = "Postcode"  placeholder="Postcode"<br>
+				<br>
+				Submit <input type="submit" name="submit" value="Submit Order"onclick = "formFunction()"><br>
+			</p>
+		</form>
+    </body>
+</html>
