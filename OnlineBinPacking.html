@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Flaxenphoenix.GitHub.io by flaxenphoenix</title>
+  </head>
+
+  <body>
+    <div class="shell">
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Online Bin Packing</h1>
+            <h2>An implementation of an online bin packing domain</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+          <h3>
+  <a id="Home" class="anchor" href="http://flaxenphoenix.github.io/" aria-hidden="true"><span class="octicon octicon-link"></span></a>Home</h3>
+        <h3>
+<a id="First-Paragraph" class="anchor" href="#Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brief</h3>
+
+<p>In this project, I was tasked with creating an online bin packing domain for
+   use in the HyFlex Hyper Heuristic framework as developed at the University of Nottingham<br>
+   In this project, I coded in Java, using eclipse, and created a multi-level class structure for my implementation.
+   <br><br>The code for this is not open source, however I will provide snippets of my work and discuss them.</p>
+<h3><a id="PermutationSwaps" class="anchor" href="#PermutationSwaps" aria-hidden="true"><span class="octicon octicon-link"></span></a>Permutation Swaps and Hamming Distance</h3>
+
+<p>As part of my project, I had to calculate a variant of the Hamming distance between two permutation strings.</p>
+<p>The calculation of the Hamming distance between two binary strings can be easily calculated, such as with the following Java code.</p>
+
+<pre><code>  int hammingDistance = 0;
+  char[] string1, string2;
+  for (int i = 0; i < s1.length; i++) {
+    hammingDistance = s1[i] != s2[i] ? hammingDistance +1 : hammingDistance;
+  }
+  return hammingDistance;
+</code></pre>
+
+<p>Note, the binary strings are the character arrays here</p>
+<p>However, with a permutation string, the distance is not the difference between each individual element within the string but instead the minimum number
+of swaps between two elements within the string (adjacency is not a requirement), and as such a function to calculate this distance must be capable of
+permuting the string and counting the number of swaps without affecting the original string. The code that I wrote to do this is as follows:</p>
+
+<pre><code>public int R(int[] a, int[] b) {
+		// Mapping
+		int[] C = new int[a.length];
+		HashMap<Object, Integer> map = new HashMap<>();
+		for (int i = 0; i < a.length; i++) {
+			map.put(a[i], i);
+		} // Do not join these loops
+		for (int i = 0; i < b.length; i++) {
+			C[i] = map.get(b[i]);
+		}
+
+		// Counting
+		int loopCount = 0;
+		ArrayList<Integer> past = new ArrayList<Integer>();
+		boolean newCycle = true;
+		for (int i = 0; i < C.length;) {
+			if (past.contains(C[i])) {
+				newCycle = true;
+				i++;
+			} else {
+				if (newCycle) {
+					newCycle = false;
+					loopCount++;
+				}
+				past.add(C[i]);
+				i = C[i];
+			}
+		}
+		return a.length - loopCount;
+	}
+</code></pre>
+
+<p>Note: follow <a href="http://www.maths.manchester.ac.uk/~pas/code/notes/part2.pdf">this</a> link for information about Hamming Distance</p>
+<h3>
+<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/flaxenphoenix">flaxenphoenix</a> can be found on <a href="https://github.com/flaxenphoenix">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>
