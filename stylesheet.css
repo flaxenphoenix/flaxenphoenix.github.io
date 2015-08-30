@@ -1,0 +1,118 @@
+/*
+Colours:
+  Lilac:    #59323C - 89-50-60    - Used as a background colour for the entire website
+  Purple:   #260126 - 38-01-38    - Mainly used for text
+  Cream:    #F2EEBC - 242-240-188 -
+  Taupe:    #BFAF80 - R-G-B       - Mainly used for the background of the sections
+  Brown:    #8C6954 - R-G-B       -
+  Grey:     #9C9C9C - 156-156-156 - Used for the background colour of the header
+  Yellow:   #FFED75 - 255-237-117 - Used for the background colour of the footer
+
+  Sky Blue: #C7D0D5 - XXX-XXX-XXX - Used for the main background colour
+  Blue:     #93B1C6 - XXX-XXX-XXX - Used for the background of the header and footer
+  White:    #F5F5F5 - XXX-XXX-XXX - Used for the background of the main body elements
+  Coral:    #FF7148 - 255-113-072 - Not currently used
+  Red:      #EC583A - XXX-XXX-XXX - Not currently used
+  Purple:   #713B87 - 113- 59-135 - Used for the text in the header and footer
+*/
+
+/* Header element for the page */
+#header {
+  /* This will be for the title of the page and the navigation buttons */
+  background-color: #93B1C6;
+  /* Font colour */
+  color: #713B87;
+  text-align: center;
+  font-family: Arial;
+  width: 80%;
+  height: 75px;
+  position: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
+  /* Make the corners of the header rounded */
+  border-radius: 20px 20px;
+  border-color: black;
+  border-style: outset;
+  border-spacing: 0px;
+  vertical-align: text-middle;
+}
+#maxHeadingWidth {
+    max-width: 500px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+/* Left hand side of the website, used for page navigation */
+#mainLeftBody {
+  margin-top: 15px;
+  padding: 1px;
+  margin-left: 10%;
+  width: 25%;
+  max-width: 25%;
+  float: left;
+  text-indent: 10px;
+  background-color:#F5F5F5;
+/*  border: 2px double #000000;*/
+}
+
+/* Main content section of the website */
+#mainRightBody {
+  margin-top: 15px;
+  margin-left: 36%;
+  margin-right: 10%;
+  max-width: 54%;
+  min-width:500px;
+  text-indent: 10px;
+  background-color:#F5F5F5;
+/*  border: 2px double #000000;*/
+}
+
+/* Footer of the website - used for contact */
+#footer {
+  /* This will be for the footer of the page and the contact information and links */
+  background-color: #93B1C6;
+  /* Font colour */
+  color: #713B87;
+  text-align: center;
+  font-family: Arial;
+  width: 80%;
+  height: 75px;
+  position: center;
+  position: bottom;
+  margin-top: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* Make the corners of the footer rounded */
+  border-radius: 20px 20px;
+  border-color: black;
+  border-style: outset;
+  border-spacing: 0px;
+  vertical-align: text-middle;
+}
+
+/* Used for the background of the website */
+body {
+  min-width: 550px;
+  background-color: #C7D0D5;
+  width: 98%;
+}
+
+/* Not currently used*/
+.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: 0px;
+  visibility: hidden;
+}
