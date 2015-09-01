@@ -39,8 +39,7 @@
                 confined to snippets like this:</p>
 
             <pre>
-                <code>> turn :: Board -> Player
-                    >     turn b = if x > z then Nought else Cross
+                <code>> turn :: Board -> Player</br>>     turn b = if x > z then Nought else Cross
                     >     where
                     >     x = length $ filter (==Cross) $ concat b
                     >     z = length $ filter (==Nought) $ concat b</code>
